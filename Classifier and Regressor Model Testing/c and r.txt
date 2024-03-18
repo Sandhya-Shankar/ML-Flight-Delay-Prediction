@@ -1,0 +1,59 @@
+classificaton:
+logistic regression:
+
+Training Accuracy: 0.9302996516217145
+Testing Accuracy: 0.9304324029447402
+Training R2 Score: 0.6768553118732579
+Testing R2 Score: 0.6765789535138695
+
+Decision trees:
+Training Accuracy: 1.0
+Test Accuracy: 1.0
+Training R2: 1.0
+Test R2: 1.0
+
+
+Extra Trees Classifier:
+Training Accuracy: 1.0
+Test Accuracy: 0.9939650469635293
+Training R2 Score: 1.0
+Test R2 Score: 0.9636596394153379
+
+RandomForest:
+Training Accuracy: 1.0
+Test Accuracy: 1.0
+Training R2: 1.0
+Test R2: 1.0
+
+
+regression:
+
+LinearRegression:
+Train MSE: 2.6131321567408377e-27
+Test MSE: 2.6138235269479714e-27
+Predicted Test Values: [ 2.81557980e-14  5.18207937e-14  7.50000000e+01 ... -6.84470712e-14
+  1.39166007e-14  8.40000000e+01]
+
+ExtraTrees REgrssion:
+Training MSE: 0.0
+Test MSE: 0.02469542697472771
+Predicted Test Values: [ 0.  0. 75. ...  0.  0. 84.]
+
+Random Forest:
+Training MSE: 0.014135854799942874
+Test MSE: 0.034279842680729054
+Predicted Test Values:
+[ 0.  0. 75. ...  0.  0. 84.]
+
+SGDRegressor:
+Mean Squared Error: 0.0003615107338712254
+Predicted values for the test set: [ 1.47840051e-03  1.33763679e-03  1.07368508e-03 ...  1.00013558e+00
+  5.89209594e+01 -1.23185990e-03]
+
+XGB:
+Regression MSE: 0.04034491694772827
+Regression Predicted Test Values: [3.5056725e-04 3.5056725e-04 7.4981949e+01 ... 3.5056725e-04 3.5056725e-04
+ 8.3819664e+01]
+
+Classification Accuracy: 1.0
+Classification Predicted Test Values: [0 0 1 ... 0 0 1]
